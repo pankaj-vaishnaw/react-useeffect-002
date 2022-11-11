@@ -22,13 +22,13 @@ const Movie = () => {
     <>
       <div>
         <div className="header">
-          <h2>MovieMarket</h2>
+          <h2>Moviestaan</h2>
         </div>
         <div className="body">
           <input
             type="text"
             name="search"
-            placeholder="Movies , Series, Bio"
+            placeholder="Movies , Series.."
             onChange={(e) => {
               setMovieTitle(e.target.value);
             }}
@@ -44,7 +44,7 @@ const Movie = () => {
         </div>
         <p>If site doesn't work properly try to change  > Site setting > Insecure Content > Allow and then reload.</p>
         <div className="body-container">
-          <p>Here You'll Get All The Movies</p>
+    
         </div>
         <div className="display">
           {movieData !== undefined ? movieData.map((item, i) => {
