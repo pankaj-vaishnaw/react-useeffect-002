@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Movie = () => {
   const [movieData, setMovieData] = useState([]);
-  const [movieTitle, setMovieTitle] = useState('Expendables');
+  const [movieTitle, setMovieTitle] = useState('Avengers');
   const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const Movie = () => {
             Search
           </button>
         </div>
-        <p>If your Chrome browser gives you Mixed Content error then please click on the padlock symbol > Site setting > Insecure Content > Allow and then reload.</p>
+        <p>If site doesn't work properly try to change  > Site setting > Insecure Content > Allow and then reload.</p>
         <div className="body-container">
           <p>Here You'll Get All The Movies</p>
         </div>
